@@ -14,6 +14,16 @@ fork it. improve it. make it yours. PRs are welcome!
 
 ## install
 
+### Pi
+
+```bash
+pi install git:github.com/kaiserlich-dev/pi-pstack
+```
+
+Use `/skill:poteto-mode` in a new Pi session. This fork preserves the original pstack subtree and adds only a thin compatibility layer; run `scripts/update-upstream.sh` to merge new changes from `cursor/plugins:pstack`.
+
+### Cursor
+
 ```bash
 /add-plugin pstack
 ```

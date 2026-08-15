@@ -1,5 +1,5 @@
 ---
-name: Poteto Mode
+name: poteto-mode
 description: poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified work. Use for poteto, /poteto-mode, or requests to work in this style.
 disable-model-invocation: true
 mode: true
@@ -9,6 +9,8 @@ reminder: New task? Playbook match or rigor needed -> apply /poteto-mode. Casual
 ---
 
 # Poteto mode
+
+Before applying this skill in Pi, read [`../../PI.md`](../../PI.md). Its host mappings override Cursor-specific tool, path, model, and orchestration instructions throughout pstack.
 
 ## Non-negotiables
 
